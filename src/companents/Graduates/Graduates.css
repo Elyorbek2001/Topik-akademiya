@@ -1,0 +1,172 @@
+.graduates {
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    color: #333333;
+}
+
+.gradutes_topik {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 400px;
+
+}
+
+.gradutes_big {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+}
+
+.graduates_text {
+    width: 40%;
+    padding: 0px 0px 0px 100px;
+}
+
+.gradutes_consuling {
+    width: 80%;
+    padding: 0px 10px 20px 0px;
+    font-size: 23px;
+}
+
+.gradutes_consulting_one {
+    width: 55%;
+    padding: 150px 0px 10px 0px;
+    font-size: 19px;
+}
+
+.graduates_img {
+    width: 60%;
+
+}
+
+.gradutesbtn_ariza {
+    margin: 40px 0px 0px 0px;
+    padding: 30px 90px;
+    border-radius: 30px;
+    border: none;
+    background-color: #418E8B;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    .gradutes_topik {
+        width: 100%;
+        font-size: 22px;
+        padding: 20px 20px 40px 20px;
+
+    }
+
+    .gradutes_consuling {
+        width: 80%;
+        padding: 0px 10px 20px 0px;
+        font-size: 20px;
+    }
+
+    .gradutes_consulting_one {
+        width: 55%;
+        padding: 50px 0px 10px 0px;
+        font-size: 20px;
+    }
+
+    .gradutesbtn_ariza {
+        margin: 30px 0px 0px 0px;
+        padding: 20px 70px;
+        border-radius: 30px;
+        border: none;
+        background-color: #418E8B;
+        color: white;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .gradutes_topik {
+        text-align: center;
+        font-size: 25px;
+        padding: 20px 20px;
+
+
+    }
+
+    .gradutes_topik {
+        width: 100%;
+        font-size: 19px;
+        padding: 20px 20px 40px 20px;
+
+    }
+
+    .gradutes_consuling {
+        width: 80%;
+        padding: 0px 10px 20px 0px;
+        font-size: 19px;
+    }
+
+    .gradutes_consulting_one {
+        width: 55%;
+        padding: 50px 0px 40px 0px;
+        font-size: 18px;
+    }
+
+    .graduates_img {
+        width: 50%;
+
+    }
+
+    .graduates_text {
+        width: 40%;
+        padding: 0px 0px 0px 40px;
+    }
+
+    .gradutesbtn_ariza {
+        margin: 30px 0px 0px 0px;
+        padding: 20px 40px;
+        border-radius: 30px;
+        border: none;
+        background-color: #418E8B;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .gradutes_big {
+        width: 100%;
+        padding: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gradutes_consuling {
+        width: 100%;
+        padding: 0px 10px 20px 0px;
+        font-size: 23px;
+    }
+
+    .gradutes_consulting_one {
+        width: 100%;
+        padding: 20px 0px 10px 0px;
+        font-size: 19px;
+    }
+
+    .graduates_img {
+        width: 100%;
+        align-items: center;
+        padding: 20px 0px 10px 0px;
+    }
+
+    .graduates_text {
+        width: 100%;
+        padding: 0px 0px 0px 30px;
+    }
+
+    .gradutesbtn_ariza {
+        margin: 40px 0px 0px 0px;
+        padding: 30px 90px;
+        border-radius: 30px;
+        border: none;
+        background-color: #418E8B;
+        color: white;
+    }
+
+}

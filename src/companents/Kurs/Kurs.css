@@ -1,0 +1,371 @@
+.Kurs {
+    width: 100%;
+    padding: 20px 100px 20px 100px;
+}
+
+.kurs_card {
+    background-color: #F7F7F7;
+
+    border-radius: 20px;
+    width: 33.3%;
+}
+
+.big_kurs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.kurs_imgs {
+    width: 110%;
+}
+
+
+
+.intensive {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+}
+
+.intensive p {
+    padding: 10px 20px 10px 0px;
+    font-size: 20px;
+}
+
+.kurs_btn {
+    background-color: #61ABA7;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.card_text {
+    padding: 20px 20px 20px 20px;
+    width: 55%;
+    font-size: 15px;
+}
+
+.card_money {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px 20px 20px;
+    align-items: center;
+}
+
+.kurs_btn_one {
+    background-color: #61ABA7;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+.card_money p {
+    color: #4B9895;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .kurs_card {
+        background-color: #F7F7F7;
+
+        border-radius: 20px;
+        width: 33.3%;
+        height: 500px;
+    }
+
+    .Kurs {
+        width: 100%;
+        padding: 20px 80px 20px 80px;
+    }
+
+    .card_text {
+        padding: 20px 0px 20px 20px;
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .card_money {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 10px 20px 10px;
+        align-items: center;
+    }
+
+    .card_money p {
+        color: #4B9895;
+        font-size: 15px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .kurs_btn {
+        background-color: #61ABA7;
+        padding: 10px 25px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .kurs_btn_one {
+        background-color: #61ABA7;
+        padding: 10px 25px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+/* ==================2=========== */
+
+.kurs_imgs2 {
+    height: 230px;
+    width: 100%;
+}
+
+.odatiy {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 20px 20px;
+}
+
+.odatiy p {
+    padding: 10px 20px 10px 0px;
+    font-size: 20px;
+}
+
+.card_money2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 20px 20px 20px;
+    align-items: center;
+}
+
+.card_money2 p {
+    color: #4B9895;
+    font-size: 15px;
+}
+
+.kurs_btn_one2 {
+    background-color: #61ABA7;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .kurs_imgs2 {
+        height: 160px;
+        width: 100%;
+    }
+
+    .odatiy {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 20px 20px 20px;
+    }
+
+    .odatiy p {
+        padding: 10px 20px 10px 0px;
+        font-size: 20px;
+    }
+
+    .card_money2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 78px 20px 20px 20px;
+        align-items: center;
+
+
+    }
+
+    .card_money2 p {
+        color: #4B9895;
+        font-size: 15px;
+        padding: 0px 0px 0px 10px;
+    }
+
+    .kurs_btn_one2 {
+        background-color: #61ABA7;
+        padding: 10px 20px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .kurs_imgs2 {
+        height: 140px;
+        width: 100%;
+    }
+
+}
+
+/* =======3=========== */
+.kurs_imgs3 {
+    width: 100%;
+    height: 230px;
+}
+
+.individal p {
+    padding: 10px 20px 10px 0px;
+    font-size: 20px;
+}
+
+.individal {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px 20px 20px;
+}
+
+.card_text3 {
+    padding: 20px 20px 20px 20px;
+    width: 65%;
+    font-size: 15px;
+}
+
+.card_money3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px 20px 20px;
+    align-items: center;
+}
+
+.card_money3 p {
+    color: #4B9895;
+    font-size: 15px;
+}
+
+.kurs_btn_one3 {
+    background-color: #61ABA7;
+    padding: 15px 30px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .kurs_imgs3 {
+        width: 100%;
+        height: 160px;
+    }
+
+    .kurs_btn_one3 {
+        background-color: #61ABA7;
+        padding: 10px 25px;
+        color: white;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .card_money3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0px 20px 20px;
+        align-items: center;
+    }
+
+    .card_money3 p {
+        color: #4B9895;
+        font-size: 15px;
+        padding: 0px 0px 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .kurs_imgs3 {
+        width: 100%;
+        height: 140px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .big_kurs {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .kurs_card {
+        background-color: #F7F7F7;
+
+        border-radius: 20px;
+        width: 100%;
+        height: 600px;
+    }
+
+    .kurs_imgs2 {
+        height: 300px;
+        width: 100%;
+    }
+
+    .kurs_imgs3 {
+        width: 100%;
+        height: 340px;
+    }
+
+    .card_money p {
+        color: #4B9895;
+        font-size: 15px;
+        padding: 0px 20px 0px 0px;
+    }
+
+    .card_money3 p {
+        color: #4B9895;
+        font-size: 15px;
+        padding: 0px 20px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .kurs_imgs {
+        width: 110%;
+        height: 320px;
+    }
+
+    .kurs_imgs3 {
+        width: 100%;
+        height: 310px;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .Kurs {
+        width: 100%;
+        padding: 20px 40px 20px 40px;
+    }
+
+    .kurs_imgs {
+        width: 110%;
+        height: 260px;
+    }
+
+    .kurs_imgs2 {
+        height: 240px;
+        width: 100%;
+    }
+
+    .kurs_imgs3 {
+        width: 100%;
+        height: 250px;
+    }
+
+    .kurs_card {
+        background-color: #F7F7F7;
+
+        border-radius: 20px;
+        width: 100%;
+        height: 550px;
+    }
+
+
+
+}

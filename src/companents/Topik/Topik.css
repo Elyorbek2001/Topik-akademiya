@@ -1,0 +1,154 @@
+.TOPIK {
+    width: 100%;
+    padding: 100px 80px;
+}
+
+.Topik_cards {
+    width: 100%;
+    padding: 20px 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 2 ta teng ustun */
+    grid-template-rows: repeat(2, auto);
+    /* 3 ta qatorda joylashadi */
+    gap: 10px;
+    /* Elementlar orasida 10px bo'shliq */
+}
+
+.card_one {
+    background-color: #FFFFFF;
+    border: 2px solid rgba(195, 192, 192, 0.281);
+    border-radius: 10px;
+    padding: 10px 0px 10px 20px;
+    width: 100%;
+}
+
+.card_h2 {
+    padding: 15px 0px 10px 20px;
+    background-color: #61ABA7;
+    align-items: center;
+    width: 20%;
+    height: 70px;
+    border-radius: 10px;
+    color: white;
+    font-size: 22px;
+}
+
+.Professional {
+    padding: 20px 0px 30px 0px;
+    font-size: 18px;
+}
+
+.tajriba {
+    padding: 10px 10px 10px 0px;
+    width: 70%;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .TOPIK {
+        width: 100%;
+        padding: 40px 40px;
+    }
+
+    .card_h2 {
+        padding: 15px 0px 10px 20px;
+        background-color: #61ABA7;
+        align-items: center;
+        width: 28%;
+        height: 70px;
+        border-radius: 10px;
+        color: white;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .TOPIK {
+        width: 100%;
+        padding: 40px 20px;
+    }
+
+    .Topik_cards {
+        width: 100%;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(2, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+    }
+
+    .card_h2 {
+        padding: 15px 0px 10px 20px;
+        background-color: #61ABA7;
+        align-items: center;
+        width: 25%;
+        height: 70px;
+        border-radius: 10px;
+        color: white;
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .TOPIK {
+        width: 100%;
+        padding: 80px 20px;
+    }
+
+    .Topik_cards {
+        width: 100%;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(2, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+    }
+
+    .card_h2 {
+        padding: 15px 0px 10px 20px;
+        background-color: #61ABA7;
+        align-items: center;
+        width: 35%;
+        height: 70px;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .TOPIK {
+        width: 100%;
+        padding: 50px 20px;
+    }
+
+    .Topik_cards {
+        width: 100%;
+        padding: 20px 10px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(2, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+    }
+
+    .card_h2 {
+        padding: 15px 0px 10px 20px;
+        background-color: #61ABA7;
+        align-items: center;
+        width: 22%;
+        height: 65px;
+        border-radius: 10px;
+        color: white;
+        font-size: 20px;
+    }
+}

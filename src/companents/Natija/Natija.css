@@ -1,0 +1,34 @@
+.Natija {
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    color: #333333;
+}
+
+
+
+.imgs {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+.button_ariza {
+    margin: 40px 0px 0px 0px;
+    padding: 30px 90px;
+    border-radius: 30px;
+    border: none;
+    background-color: #418E8B;
+    color: white;
+
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .imgs {
+        display: flex;
+        gap: 10px;
+        padding: 20px 0px;
+    }
+
+}

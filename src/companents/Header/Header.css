@@ -1,0 +1,293 @@
+.Hea {
+    width: 100%;
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    position: fixed;
+    background-color: white;
+
+}
+
+.header {
+
+    width: 100%;
+    display: flex;
+
+    align-items: center;
+    color: #333333;
+
+}
+
+.img_text {
+    width: 60%;
+    display: flex;
+
+    font-size: 14px;
+}
+
+.logo_horizontal img {
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.text {
+    text-align: start;
+    width: 25%;
+    padding: 20px 10px 0px 10px;
+}
+
+.pages_button {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pages ul {
+    display: flex;
+    gap: 20px;
+}
+
+.pages ul li {
+    list-style: none;
+}
+
+.flex-col li {
+    list-style: none;
+}
+
+.no-underline {
+
+    text-decoration: none;
+    color: #333333;
+}
+
+.til {
+    padding: 35px 0px 0px 10px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .Hea {
+        width: 100%;
+        padding: 0px 50px;
+        display: flex;
+
+    }
+
+    .header {
+
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        color: #333333;
+
+    }
+
+    .logo_horizontal img {
+        width: 90%;
+        height: 100px;
+    }
+
+    .text {
+        text-align: start;
+        width: 40%;
+        padding: 30px 0px 20px 0px;
+    }
+
+    .pages_button {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .img_text {
+        width: 50%;
+        display: flex;
+        font-size: 14px;
+
+    }
+
+
+    .text p {
+        width: 100%;
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    .flex {
+        width: 100%;
+        display: flex;
+        gap: 10px;
+
+        font-size: 15px;
+    }
+
+    .no-underline {
+        font-size: 14px;
+        text-decoration: none;
+        color: #333333;
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 800px) {
+    .Hea {
+        width: 100%;
+        padding: 0px 20px;
+        display: flex;
+
+    }
+
+    .header {
+
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        color: #333333;
+
+    }
+
+    .logo_horizontal {
+        width: 60%;
+    }
+
+    .logo_horizontal img {
+        height: 100px;
+        width: 100%;
+    }
+
+    .text {
+        text-align: start;
+        width: 50%;
+        padding: 30px 0px 20px 5px;
+    }
+
+    .flex {
+        width: 100%;
+
+
+        padding: 10px 0px 0px 0px;
+    }
+
+    .pages {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .no-underline {
+        font-size: 12px;
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .header_p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Hea {
+        width: 100%;
+        padding: 0px 8px;
+        display: flex;
+
+    }
+
+    .header {
+
+        width: 100%;
+        display: flex;
+
+        align-items: center;
+        color: #333333;
+
+    }
+
+    .logo_horizontal {
+        width: 70%;
+    }
+
+    .logo_horizontal img {
+        height: 70px;
+        width: 90%;
+    }
+
+    .text {
+        text-align: start;
+        width: 50%;
+        padding: 20px 0px 20px 5px;
+        font-size: 10px;
+    }
+
+    .flex {
+        width: 100%;
+        padding: 10px 5px 0px 0px;
+    }
+
+    .no-underline {
+        font-size: 10px;
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .header_p {
+        font-size: 10px;
+    }
+
+    .pages {
+        padding: 0px 0px 0px 10px;
+    }
+
+    .pages ul {
+        display: flex;
+        gap: 10px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 420px) {
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo_horizontal {
+        width: 100%;
+    }
+
+    .logo_horizontal img {
+        height: 80px;
+        width: 100%;
+    }
+
+    .img_text {
+        width: 70%;
+    }
+
+    .pages {
+        display: none;
+    }
+
+    .text {
+        text-align: start;
+        width: 70%;
+        padding: 30px 0px 20px 5px;
+        font-size: 10px;
+    }
+
+    .pages_button {
+        width: 50%;
+        padding: 0px 0px 0px 40px;
+
+    }
+}

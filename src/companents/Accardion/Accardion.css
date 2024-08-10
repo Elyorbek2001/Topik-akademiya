@@ -1,0 +1,37 @@
+.Accardion {
+    padding: 40px 200px;
+    color: #333333;
+
+}
+
+@media only screen and (max-width: 1000px) {
+    .Accardion {
+        padding: 20px 50px;
+        color: #333333;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .Accardion {
+        padding: 20px 80px;
+        color: #333333;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Accardion {
+        padding: 10px 60px;
+        color: #333333;
+
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .Accardion {
+        padding: 10px 30px;
+        color: #333333;
+
+    }
+}

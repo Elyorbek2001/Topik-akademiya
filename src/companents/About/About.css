@@ -1,0 +1,297 @@
+.about {
+
+    width: 100%;
+    padding: 50px 100px 0px 100px;
+    text-align: center;
+    color: #333333;
+}
+
+.Topik {
+    width: 100%;
+    font-size: 22px;
+    padding: 20px 0px 40px 0px;
+}
+
+.big_talk {
+    width: 100%;
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 2 ta teng ustun */
+    grid-template-rows: repeat(2, auto);
+    /* 3 ta qatorda joylashadi */
+    gap: 10px;
+    /* Elementlar orasida 10px bo'shliq */
+
+}
+
+.one_talk {
+    width: 100%;
+
+}
+
+.talk {
+    padding: 10px 100px;
+    align-items: center;
+    width: 100%;
+    background-color: transparent;
+
+}
+
+.text_p {
+    width: 100%;
+    padding: 0px 70px 0px 70px;
+    background-color: transparent;
+
+}
+
+.text_pp {
+    padding: 0px 50px 0px 50px;
+}
+
+.talk_img {
+
+    width: 100%;
+    background-color: #C5F2CBA6;
+    padding: 20px;
+    border-radius: 100%;
+}
+
+.button_Iam {
+    margin: 40px 0px 0px 0px;
+    padding: 30px 90px;
+    border-radius: 30px;
+    border: none;
+    background-color: #418E8B;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .about {
+
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+        text-align: center;
+        color: #333333;
+    }
+
+    .big_talk {
+        width: 100%;
+        padding: 20px 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(2, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+
+    }
+
+    .talk {
+        padding: 10px 100px;
+        align-items: center;
+        width: 100%;
+        background-color: transparent;
+
+    }
+
+    .text_p {
+        width: 100%;
+        padding: 0px 70px 0px 70px;
+        background-color: transparent;
+
+    }
+
+    .talk_img {
+
+        width: 150%;
+        background-color: #C5F2CBA6;
+        padding: 20px;
+        border-radius: 100%;
+
+    }
+
+    .talk_img img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .one_talk {
+
+        width: 240px;
+        height: 206px;
+
+    }
+
+    .big_talk {
+        width: 100%;
+        padding: 20px 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(2, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+
+    }
+
+    .talk {
+        padding: 10px 100px;
+        align-items: center;
+        width: 100%;
+        background-color: transparent;
+
+    }
+
+    .talk_img {
+
+        width: 300%;
+        background-color: #C5F2CBA6;
+        padding: 20px;
+        border-radius: 100%;
+    }
+
+    .talk_img img {
+        width: 100%;
+    }
+
+    .text_p {
+        width: 100%;
+        padding: 10px 30px 10px 70px;
+        background-color: transparent;
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .about {
+
+        width: 100%;
+        padding: 50px 0px 0px 0px;
+        text-align: center;
+        color: #333333;
+    }
+
+    .big_talk {
+        width: 100%;
+        align-items: center;
+        background-color: transparent;
+        padding: 20px 50px;
+
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(3, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+    }
+
+
+    .one_talk {
+        background-color: transparent;
+        width: 250px;
+        height: 206px;
+        align-items: center;
+
+    }
+
+    .talk_img {
+
+        width: 220%;
+        background-color: #C5F2CBA6;
+        align-items: center;
+        border-radius: 100%;
+
+    }
+
+    .talk_img img {
+        width: 100%;
+    }
+
+    .text_p {
+        width: 100%;
+        align-items: center;
+        padding: 10px 0px 10px 70px;
+        background-color: transparent;
+
+    }
+
+    .button_Iam {
+
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .big_talk {
+        width: 100%;
+        align-items: center;
+        background-color: transparent;
+        padding: 20px 10px;
+
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(3, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+    }
+
+    .button_Iam {
+
+        align-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .big_talk {
+        width: 100%;
+        align-items: center;
+        background-color: transparent;
+        padding: 20px 10px;
+
+        grid-template-columns: repeat(1, 1fr);
+        /* 2 ta teng ustun */
+        grid-template-rows: repeat(3, auto);
+        /* 3 ta qatorda joylashadi */
+        gap: 10px;
+        /* Elementlar orasida 10px bo'shliq */
+    }
+
+    .text_p {
+        width: 120%;
+        align-items: center;
+        padding: 10px 0px 10px 0px;
+        background-color: transparent;
+
+    }
+
+    .talk {
+        padding: 10px 115px 10px 90px;
+        align-items: center;
+        width: 100%;
+        background-color: transparent;
+
+    }
+
+    .one_talk {
+        background-color: transparent;
+        width: 330px;
+        height: 206px;
+
+        padding: 20px 24px 20px 47px;
+
+    }
+
+    .button_Iam {
+
+        align-items: center;
+    }
+
+
+}
